@@ -1,8 +1,13 @@
 
 import { useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
 import { toast, ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
+
 function App() {
+  const { test } = useSelector(state => state.app)
+
+  console.log(test)
   return (
     <div>
       <div>
