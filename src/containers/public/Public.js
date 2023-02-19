@@ -4,7 +4,7 @@ import { SidebarLeft, SidebarRight } from '../../components'
 
 const Public = () => {
   return (
-    <div className='w-full flex overflow-y-auto'>
+    <div className='w-full flex bg-[#CED9D9]'>
       <div className='w-[240px] flex-none border border-blue-500'>
         <SidebarLeft>
 
@@ -13,8 +13,8 @@ const Public = () => {
       <div className='flex-auto border border-red-500'>
         <Outlet />
       </div>
-      <div>
-        <SidebarRight className='w-[329px] flex-none'></SidebarRight>
+      <div className='w-[329px] flex-none'>
+        <SidebarRight></SidebarRight>
       </div>
     </div>
   )
