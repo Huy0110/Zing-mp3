@@ -6,3 +6,10 @@ export const setCurSongId = (sid) => (
         sid: sid
     }
 )
+
+export const play = (flag) => (
+    {
+        type: actionTypes.PLAY,
+        flag
+    }
+)
