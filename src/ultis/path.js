@@ -1,7 +1,9 @@
 const path = {
     PUBLIC: '/',
     HOME: '',
-    LOGIN: 'login'
+    LOGIN: 'login',
+    STAR: '*',
+    MY_MUSIC: 'mymusic'
 }
 
 export default path
