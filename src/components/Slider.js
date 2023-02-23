@@ -50,6 +50,7 @@ const Slider = () => {
       console.log(item)
       if(item?.type === 1){
         dispatch(actions.setCurSongId(item.encodeId))
+        dispatch(actions.play(true))
         console.log("banner when click: ", banner)
       }
       console.log("banner: ",banner)
